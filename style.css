@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(169, 141, 141);
+    color: white;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/099/769/original/forest-landscape-background-design-illustration-free-vector.jpg);
+   position: absolute;
+  }
+  .mainContainer{
+    position: relative;
+    left: 597px;
+    top: 100px;
+    border: 4px solid black;
+    width: 450px;
+    height: 550px;
+    border-radius: 14px;
+    
+  }
+.formContainer{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(116, 116, 148);
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #544f4f;
+    font-weight: bold;
+  }
+  
+ .uniqueProp {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #110101;
+  }
+  
+  #submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #45a049;
+  }
+  
